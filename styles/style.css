@@ -83,9 +83,7 @@ h1 {
 .taskWrapper[data-isDone='true'] div.taskText {
     color: white;
 }
-.taskWrapper[data-isDone='true'] input.checkboxTask {
-    /* display: none; */
-}
+
 
 .taskText {
     font-family: 'Roboto';
@@ -95,6 +93,7 @@ h1 {
     line-height: 21px;
     color: #202020;
     margin: 0 10px;
+    overflow-wrap: anywhere;
 }
 
 @media only screen and (max-width : 480px) {
